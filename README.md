@@ -13,8 +13,7 @@
 * Frontend
   * Visitor
   * Customer
-
-<hr>
+  
 
 - Visitors can view products, view articles and signup to become customers.
 - Customers can view products, view articles, manage products in shopping cart, checkout to place orders, vire orders, manage carrier address
@@ -29,16 +28,16 @@ post reviews, vote reviews and vote questions of products.
 
 ## Technical Requirements :
 
-* Accessibility : Apps can be accessible from any devices connected to the Internet like PC, laptop, tablet, smartphone etc..
+* **Accessibility** : Apps can be accessible from any devices connected to the Internet like PC, laptop, tablet, smartphone etc..
   * This brings us to Responsive design , look good on different devices 
-* Availability : Users can access apps any time, 7/24
-* Security : 
+* **Availability** : Users can access apps any time, 7/24
+* **Security** : 
   * Authentication required for all users, 
   * Authorization required in the admin like editor, assistant etc..., 
   * Password are not stored in database,
   * Payment is secured
-* Performance : Fast response time is important.
-* Scalability : Apps can be scaled on demand and running well under loads, Backend and Frontend can be scaled separately.
+* **Performance** : Fast response time is important.
+* **Scalability** : Apps can be scaled on demand and running well under loads, Backend and Frontend can be scaled separately.
 
 ## Database Design 
 
