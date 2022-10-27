@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/ShopWorldBackEnd.iml" filepath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/ShopWorldBackEnd.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ShopWorldCommon/ShopWorldCommon.iml" filepath="$PROJECT_DIR$/ShopWorldCommon/ShopWorldCommon.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ShopWorldWebParent/ShopWorldFrontEnd/ShopWorldFrontEnd.iml" filepath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldFrontEnd/ShopWorldFrontEnd.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ShopWorldWebParent/ShopWorldWebParent.iml" filepath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldWebParent.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-ecommerce-project.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-ecommerce-project.iml" />
     </modules>
   </component>
