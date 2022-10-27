@@ -11,6 +11,13 @@
         <module name="ShopWorldBackEnd" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ShopWorldBackEnd" target="17" />
+      <module name="ShopWorldCommon" target="17" />
+      <module name="ShopWorldFrontEnd" target="17" />
+      <module name="ShopWorldWebParent" target="17" />
+      <module name="spring-boot-ecommerce-project" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
