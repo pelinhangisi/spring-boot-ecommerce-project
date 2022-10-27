@@ -24,8 +24,8 @@ public class UserRepositoryTests {
 
     @Test
     public void testCreateNewUserWithOneRole(){
-        Role roleAdmin = entityManager.find(Role.class, 1);
-        User userPelin = new User("leyle@test.com" , "1234", "Pelin", "Hangisi");
+        Role roleAdmin = entityManager.find(Role.class, 2);
+        User userPelin = new User("leyle@test.com" , "1234", "Leyla", "Hangisi");
         userPelin.addRole(roleAdmin);
 
         User savedUser = repo.save(userPelin);
@@ -33,23 +33,57 @@ public class UserRepositoryTests {
         assertThat(savedUser.getId()).isGreaterThan(0);
     }
 
-//    @Test
-//    public void testCreateNewUserWithTwoRoles(){
-//        User userAyse = new User("test@test.com", "1234", "Pelin", "Hangisi");
-//        Role roleEditor = new Role("Editor");
-//        Role roleAssistant = new Role("Assistant");
-//
-//        userAyse.addRole(roleEditor);
-//        userAyse.addRole(roleAssistant);
-//
-//        User savedUser = repo.save(userAyse);
-//
-//        assertThat(savedUser.getId()).isGreaterThan(0);
-//    }
+    @Test
+    public void testCreateNewUserWithTwoRoles(){
+        User userAyse = new User("test@test.com", "1234", "Pelin", "Hangisi");
+        Role roleEditor = new Role(3);
+        Role roleAssistant = new Role(5);
+
+        userAyse.addRole(roleEditor);
+        userAyse.addRole(roleAssistant);
+
+        User savedUser = repo.save(userAyse);
+
+        assertThat(savedUser.getId()).isGreaterThan(0);
+    }
 
     @Test
     public void testListAllUsers(){
         Iterable<User> listUsers = repo.findAll();
         listUsers.forEach(user -> System.out.println(user));
+    }
+
+    @Test
+    public void testGetUserById(){
+        User userPelin =  repo.findById(1).get();
+        System.out.println(userPelin);
+        assertThat(userPelin).isNotNull();
+    }
+
+    @Test
+    public void testUpdateUserDetails(){
+        User userPelin =  repo.findById(1).get();
+        userPelin.setEnabled(true);
+        userPelin.setEmail("hhhh@test.com");
+
+        repo.save(userPelin);
+    }
+
+    @Test
+    public void testUpdateUserRoles(){
+        User userAyse =  repo.findById(10).get();
+        Role roleEditor = new Role(3);
+        Role roleSalesperson = new Role(2);
+
+        userAyse.getRoles().remove(roleEditor);
+        userAyse.addRole(roleSalesperson);
+
+        repo.save(userAyse);
+    }
+
+    @Test
+    public void testDeleteUser(){
+        Integer userId = 5;
+        repo.deleteById(userId);
     }
 }

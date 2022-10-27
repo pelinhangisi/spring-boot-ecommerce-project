@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88e48fe0-8a06-4ec1-96ae-d306fa8199da" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/spring-boot-ecommerce-project.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopWorldCommon/src/main/java/com/pelinhangisi/shopworldcommon/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWorldCommon/src/main/java/com/pelinhangisi/shopworldcommon/entity/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/test/java/com/pelinhangisi/admin/user/UserRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/test/java/com/pelinhangisi/admin/user/UserRepositoryTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopWorldWebParent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWorldWebParent/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,38 +95,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ShopWorldBackEndApplication (1)">
-    <configuration name="RoleRepositoryTests.testCreateRestRoles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShopWorldBackEnd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pelinhangisi.admin.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.pelinhangisi.admin.user" />
-      <option name="MAIN_CLASS_NAME" value="com.pelinhangisi.admin.user.RoleRepositoryTests" />
-      <option name="METHOD_NAME" value="testCreateRestRoles" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShopWorldBackEnd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pelinhangisi.admin.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.pelinhangisi.admin.user" />
-      <option name="MAIN_CLASS_NAME" value="com.pelinhangisi.admin.user.UserRepositoryTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UserRepositoryTests.testDeleteUser">
     <configuration name="UserRepositoryTests.testCreateNewUserWithTwoRoles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopWorldBackEnd" />
       <extension name="coverage">
@@ -150,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryTests.testCreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRepositoryTests.testDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopWorldBackEnd" />
       <extension name="coverage">
         <pattern>
@@ -160,21 +122,56 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.pelinhangisi.admin.user" />
       <option name="MAIN_CLASS_NAME" value="com.pelinhangisi.admin.user.UserRepositoryTests" />
-      <option name="METHOD_NAME" value="testCreateUser" />
+      <option name="METHOD_NAME" value="testDeleteUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopWorldBackEndApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRepositoryTests.testGetUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopWorldBackEnd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pelinhangisi.admin.*" />
+          <option name="PATTERN" value="com.pelinhangisi.admin.user.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pelinhangisi.admin.ShopWorldBackEndApplication" />
+      <option name="PACKAGE_NAME" value="com.pelinhangisi.admin.user" />
+      <option name="MAIN_CLASS_NAME" value="com.pelinhangisi.admin.user.UserRepositoryTests" />
+      <option name="METHOD_NAME" value="testGetUserById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTests.testUpdateUserDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopWorldBackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pelinhangisi.admin.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pelinhangisi.admin.user" />
+      <option name="MAIN_CLASS_NAME" value="com.pelinhangisi.admin.user.UserRepositoryTests" />
+      <option name="METHOD_NAME" value="testUpdateUserDetails" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTests.testUpdateUserRoles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopWorldBackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pelinhangisi.admin.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pelinhangisi.admin.user" />
+      <option name="MAIN_CLASS_NAME" value="com.pelinhangisi.admin.user.UserRepositoryTests" />
+      <option name="METHOD_NAME" value="testUpdateUserRoles" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -209,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ShopWorldBackEndApplication (1)" />
+        <item itemvalue="JUnit.UserRepositoryTests.testDeleteUser" />
+        <item itemvalue="JUnit.UserRepositoryTests.testUpdateUserRoles" />
+        <item itemvalue="JUnit.UserRepositoryTests.testUpdateUserDetails" />
+        <item itemvalue="JUnit.UserRepositoryTests.testGetUserById" />
         <item itemvalue="JUnit.UserRepositoryTests.testCreateNewUserWithTwoRoles" />
-        <item itemvalue="JUnit.UserRepositoryTests" />
-        <item itemvalue="JUnit.UserRepositoryTests.testCreateUser" />
-        <item itemvalue="JUnit.RoleRepositoryTests.testCreateRestRoles" />
       </list>
     </recent_temporary>
   </component>
