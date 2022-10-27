@@ -1,7 +1,238 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="88e48fe0-8a06-4ec1-96ae-d306fa8199da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/spring-boot-ecommerce-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopWorldCommon/src/main/java/com/pelinhangisi/shopworldcommon/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopWorldProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/java/com/pelinhangisi/admin/user/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/test/java/com/pelinhangisi/admin/user/UserRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldWebParent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/test/java/com/pelinhangisi/admin/user/RoleRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/test/java/com/pelinhangisi/admin/user/RoleRepositoryTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="2FgDVKsQU365c6amFdQbkiIcsRg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ShopWorldCommon" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pelin\Desktop\ecommerce-project\spring-boot-ecommerce-project\ShopWorldProject\ShopWorldWebParent\ShopWorldBackEnd\src\main\resources\images" />
+      <recent name="C:\Users\pelin\Desktop\ecommerce-project\spring-boot-ecommerce-project\ShopWorldProject\ShopWorldWebParent\ShopWorldBackEnd\src\main\resources\static\images" />
+      <recent name="C:\Users\pelin\Desktop\ecommerce-project\spring-boot-ecommerce-project\ShopWorldProject\ShopWorldWebParent\ShopWorldBackEnd\src\main\resources\static" />
+      <recent name="C:\Users\pelin\Desktop\ecommerce-project\spring-boot-ecommerce-project\ShopWorldProject\ShopWorldWebParent\ShopWorldBackEnd\src\main\resources" />
+      <recent name="C:\Users\pelin\Desktop\ecommerce-project\spring-boot-ecommerce-project\ShopWorldProject\ShopWorldWebParent\ShopWorldFrontEnd\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pelin\Desktop\ecommerce-project\spring-boot-ecommerce-project\ShopWorldProject\ShopWorldWebParent\ShopWorldBackEnd\src\main\resources\static" />
+      <recent name="C:\Users\pelin\Desktop\ecommerce-project\spring-boot-ecommerce-project\ShopWorldProject\ShopWorldWebParent\ShopWorldBackEnd\src\main\resources\static\images" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.UserRepositoryTests.testCreateUser">
+    <configuration name="RoleRepositoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopWorldBackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pelinhangisi.admin.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pelinhangisi.admin.user" />
+      <option name="MAIN_CLASS_NAME" value="com.pelinhangisi.admin.user.RoleRepositoryTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoleRepositoryTests.testCreateRestRoles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopWorldBackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pelinhangisi.admin.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pelinhangisi.admin.user" />
+      <option name="MAIN_CLASS_NAME" value="com.pelinhangisi.admin.user.RoleRepositoryTests" />
+      <option name="METHOD_NAME" value="testCreateRestRoles" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTests.testCreateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopWorldBackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pelinhangisi.admin.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pelinhangisi.admin.user" />
+      <option name="MAIN_CLASS_NAME" value="com.pelinhangisi.admin.user.UserRepositoryTests" />
+      <option name="METHOD_NAME" value="testCreateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopWorldBackEndApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ShopWorldBackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pelinhangisi.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pelinhangisi.admin.ShopWorldBackEndApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopWorldBackEndApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ShopWorldBackEnd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pelinhangisi.ShopWorldBackEndApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopWorldCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ShopWorldCommon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pelinhangisi.shopworldcommon.ShopWorldCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopWorldFrontEndApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ShopWorldFrontEnd" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pelinhangisi.site.ShopWorldFrontEndApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopWorldWebParentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ShopWorldWebParent" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pelinhangisi.ShopWorldWebParentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserRepositoryTests.testCreateUser" />
+        <item itemvalue="JUnit.RoleRepositoryTests.testCreateRestRoles" />
+        <item itemvalue="JUnit.RoleRepositoryTests" />
+        <item itemvalue="Spring Boot.ShopWorldBackEndApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88e48fe0-8a06-4ec1-96ae-d306fa8199da" name="Changes" comment="" />
+      <created>1664904857653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664904857653</updated>
+      <workItem from="1664904860241" duration="14948000" />
+      <workItem from="1664954720689" duration="14140000" />
+      <workItem from="1665089199839" duration="7981000" />
+      <workItem from="1665511882968" duration="87000" />
+      <workItem from="1666806245184" duration="14730000" />
+      <workItem from="1666832962954" duration="1539000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
