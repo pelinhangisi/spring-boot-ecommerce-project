@@ -5,9 +5,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/ShopWorldCommon/pom.xml" />
-        <option value="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/pom.xml" />
-        <option value="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldFrontEnd/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

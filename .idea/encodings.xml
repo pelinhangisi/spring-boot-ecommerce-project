@@ -2,8 +2,11 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/ShopWorldCommon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShopWorldCommon/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ShopWorldWebParent/ShopWorldFrontEnd/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ShopWorldWebParent/ShopWorldFrontEnd/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ShopWorldWebParent/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ShopWorldWebParent/src/main/resources" charset="UTF-8" />
   </component>

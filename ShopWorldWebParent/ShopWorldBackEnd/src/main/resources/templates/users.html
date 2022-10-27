@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://thymeleaf.org">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -55,12 +56,44 @@
         </nav>
     </div>
     <div>
-        <h1>ShopWorld Control Panel</h1>
+        <h2>Manage Users</h2>
     </div>
+
+    <div>
+        <table class="table table-bordered table-striped table-hover table-responsive-xl">
+            <thead class="thead-dark">
+            <tr>
+                <th>User ID</th>
+                <th>Photos</th>
+                <th>E-mail</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Roles</th>
+                <th>Enabled</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr th:each="user : ${listUsers}">
+                    <td>[[${user.id}]]</td>
+                    <td></td>
+                    <td>[[${user.email}]]</td>
+                    <td>[[${user.firstName}]]</td>
+                    <td>[[${user.lastName}]]</td>
+                    <td>[[${user.roles}]]</td>
+                    <td>[[${user.enabled}]]</td>
+                    <td>Edit &nbsp; Delete</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
     <div class="text-center">
         <p>ShopWorld Control Panel - Copyright &copy; ShopWorld</p>
     </div>
 </div>
+
+
 
 </body>
 </html>
