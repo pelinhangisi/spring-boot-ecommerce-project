@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88e48fe0-8a06-4ec1-96ae-d306fa8199da" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/java/com/pelinhangisi/admin/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/java/com/pelinhangisi/admin/user/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/java/com/pelinhangisi/admin/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/java/com/pelinhangisi/admin/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopWorldWebParent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWorldWebParent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/resources/templates/user_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/resources/templates/user_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/test/java/com/pelinhangisi/admin/user/UserRepositoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/test/java/com/pelinhangisi/admin/user/UserRepositoryTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +97,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ShopWorldBackEndApplication (1)">
+  <component name="RunManager" selected="JUnit.UserRepositoryTests.testGetUserByEmail">
     <configuration name="PasswordEncoderTest.testEncodePassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopWorldBackEnd" />
       <extension name="coverage">
@@ -129,7 +130,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRepositoryTests.testUpdateUserDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRepositoryTests.testGetUserByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopWorldBackEnd" />
       <extension name="coverage">
         <pattern>
@@ -139,7 +140,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.pelinhangisi.admin.user" />
       <option name="MAIN_CLASS_NAME" value="com.pelinhangisi.admin.user.UserRepositoryTests" />
-      <option name="METHOD_NAME" value="testUpdateUserDetails" />
+      <option name="METHOD_NAME" value="testGetUserByEmail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -204,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserRepositoryTests.testGetUserByEmail" />
         <item itemvalue="Spring Boot.ShopWorldBackEndApplication (1)" />
         <item itemvalue="JUnit.PasswordEncoderTest.testEncodePassword" />
         <item itemvalue="JUnit.UserRepositoryTests.testDeleteUser" />
         <item itemvalue="JUnit.UserRepositoryTests.testUpdateUserRoles" />
-        <item itemvalue="JUnit.UserRepositoryTests.testUpdateUserDetails" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +230,7 @@
       <workItem from="1667062347563" duration="213000" />
       <workItem from="1667249779799" duration="2000" />
       <workItem from="1667307383982" duration="82000" />
-      <workItem from="1668455954572" duration="3130000" />
+      <workItem from="1668455954572" duration="9803000" />
     </task>
     <servers />
   </component>
