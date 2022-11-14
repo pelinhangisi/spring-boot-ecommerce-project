@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88e48fe0-8a06-4ec1-96ae-d306fa8199da" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopWorldCommon/src/main/java/com/pelinhangisi/shopworldcommon/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWorldCommon/src/main/java/com/pelinhangisi/shopworldcommon/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/java/com/pelinhangisi/admin/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/java/com/pelinhangisi/admin/user/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/java/com/pelinhangisi/admin/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/java/com/pelinhangisi/admin/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/resources/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/resources/templates/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopWorldWebParent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopWorldWebParent/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ShopWorldWebParent/ShopWorldBackEnd/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java2022-kodlamaio" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -98,6 +97,22 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ShopWorldBackEndApplication (1)">
+    <configuration name="PasswordEncoderTest.testEncodePassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopWorldBackEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pelinhangisi.admin.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pelinhangisi.admin.user" />
+      <option name="MAIN_CLASS_NAME" value="com.pelinhangisi.admin.user.PasswordEncoderTest" />
+      <option name="METHOD_NAME" value="testEncodePassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserRepositoryTests.testDeleteUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopWorldBackEnd" />
       <extension name="coverage">
@@ -109,22 +124,6 @@
       <option name="PACKAGE_NAME" value="com.pelinhangisi.admin.user" />
       <option name="MAIN_CLASS_NAME" value="com.pelinhangisi.admin.user.UserRepositoryTests" />
       <option name="METHOD_NAME" value="testDeleteUser" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRepositoryTests.testGetUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShopWorldBackEnd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pelinhangisi.admin.user.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.pelinhangisi.admin.user" />
-      <option name="MAIN_CLASS_NAME" value="com.pelinhangisi.admin.user.UserRepositoryTests" />
-      <option name="METHOD_NAME" value="testGetUserById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -206,10 +205,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ShopWorldBackEndApplication (1)" />
+        <item itemvalue="JUnit.PasswordEncoderTest.testEncodePassword" />
         <item itemvalue="JUnit.UserRepositoryTests.testDeleteUser" />
         <item itemvalue="JUnit.UserRepositoryTests.testUpdateUserRoles" />
         <item itemvalue="JUnit.UserRepositoryTests.testUpdateUserDetails" />
-        <item itemvalue="JUnit.UserRepositoryTests.testGetUserById" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +226,10 @@
       <workItem from="1665511882968" duration="87000" />
       <workItem from="1666806245184" duration="14730000" />
       <workItem from="1666832962954" duration="1539000" />
+      <workItem from="1667062347563" duration="213000" />
+      <workItem from="1667249779799" duration="2000" />
+      <workItem from="1667307383982" duration="82000" />
+      <workItem from="1668455954572" duration="3130000" />
     </task>
     <servers />
   </component>
